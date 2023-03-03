@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Arthur BAILLEUL" />
+	<meta name="description" content="Ceci est mon premier td de javascript" />
+	<meta name="keywords" content="TD, javascript, web, debutant" />
+	<title>TD1 - Exercice 1</title>
+	<link href="assets/favicon.ico" rel="icon" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="css/td1.css" />
+	<script defer="defer" src="js/td1.js"></script>
+</head>
+
+<body onload="onLoad();">
+	<h1 id="title" class="firstOrLast">Texte1</h1>
+	<h2>Texte21</h2>
+	<h2 class="firstOrLast">Texte22</h2>
+	<h3 class="firstOrLast">Texte31</h3>
+	<h3>Texte32</h3>
+	<h3>Texte33</h3>
+	<div>
+		<p>Il faut 3 mots <span>minimum.</span></p>
+	</div>
+	<div>
+		<p>Il faut 3 mots <span>différent.</span></p>
+	</div>
+	<div>
+		<p id="nbDays">
+			il reste xxx jours avant le 19 juillet 202X
+		</p>
+	</div>
+	<div>
+		<p id="clock">
+
+		</p>
+	</div>
+	<div id="graphic-clock">
+		<img id="hour10" src="assets/images/0.gif" alt="">
+		<img id="hour1" src="assets/images/0.gif" alt="">
+		&nbsp;
+		<img id="minute10" src="assets/images/0.gif" alt="">
+		<img id="minute1" src="assets/images/0.gif" alt="">
+		&nbsp;
+		<img id="seconde10" src="assets/images/0.gif" alt="">
+		<img id="seconde1" src="assets/images/0.gif" alt="">
+	</div>
+
+	<form action="">
+		<input id="inputDuFormulaire" class="white" type="text">
+	</form>
+
+	<aside>
+		<!--menu déroulant-->
+		<nav>
+			<div>Information Générale</div>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="page1.html">Page 1</a></li>
+			</ul>
+		</nav>
+	</aside>
+
+	<p>
+		<input id="ChampText" type="text">
+		<button id="search" onclick="search()">Cliquez ici</button>
+		<p id="originalContent"></p>
+	</p>
+
+	<div id="update-date"></div>
+</body>
+
+</html>
